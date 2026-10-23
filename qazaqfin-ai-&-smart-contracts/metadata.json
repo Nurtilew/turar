@@ -1,0 +1,6 @@
+{
+  "name": "QazaqFin AI & Smart Contracts",
+  "description": "Қазақстандық AI Қаржы және Смарт Келісімшарттар порталы: Gemini AI кеңесші, бөліп төлеу есептеу, SMS OTP цифрлық қол қою және ресми келісімшарттар.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

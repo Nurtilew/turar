@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+
+  --color-coffee-950: #110905;
+  --color-coffee-900: #1a100a;
+  --color-coffee-850: #23170f;
+  --color-coffee-800: #2d1d14;
+  --color-coffee-750: #3a271c;
+  --color-coffee-700: #4a3325;
+  --color-coffee-600: #6b4a36;
+  --color-coffee-500: #8f6449;
+  --color-coffee-400: #b5805a;
+  --color-coffee-300: #c98e60;
+  --color-coffee-200: #dba77b;
+  --color-coffee-100: #ebd3be;
+  --color-coffee-50: #f9f0e8;
+
+  --color-crema: #eddcd2;
+  --color-foam: #fff9f5;
+  --color-caramel-400: #f59e0b;
+  --color-caramel-500: #d97706;
+  --color-caramel-600: #b45309;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #150d08;
+  color: #f7ede2;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom coffee bean scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #1a100a;
+}
+::-webkit-scrollbar-thumb {
+  background: #3e2a1d;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5a3e2b;
+}
+
+/* Tabular figures for all financial numbers */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
